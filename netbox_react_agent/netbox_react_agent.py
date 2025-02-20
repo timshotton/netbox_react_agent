@@ -314,7 +314,7 @@ def initialize_agent():
     global llm, agent_executor
 
     if not llm:
-        llm = Ollama(model="command-r7b", base_url="http://ollama:11434")
+        llm = Ollama(model="command-r-plus", base_url="http://ollama:11434")
 
         # ✅ Define the tools
         tools = [
